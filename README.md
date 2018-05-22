@@ -11,4 +11,4 @@ strcpy(str2,str);
 (strcmp(strrev(str),str2)==0)?printf("Pallingdrome"):printf("Not Pallingdrome");
 getch();
 }
-
+// Accessed second time
