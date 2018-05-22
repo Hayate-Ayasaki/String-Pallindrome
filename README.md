@@ -1,4 +1,3 @@
-// String-Pallindrome
 #include<string.h>
 #include<stdio.h>
 #include<conio.h>
@@ -8,7 +7,7 @@ char str[50],str2[50];
 printf("Enter the string -> ");
 gets(str);
 strcpy(str2,str);
-(strcmp(strrev(str),str2)==0)?printf("Pallingdrome"):printf("Not Pallingdrome");
+(strcmp(strrev(str),str2)==0)?printf("Pallindrome"):printf("Not Pallindrome");
 getch();
 }
-// Accessed second time
+// corrected second time Pallingdrome to pallindrome
